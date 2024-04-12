@@ -15,8 +15,6 @@ export default function () {
     'is status 200': (r) => r.status === 200,
   });
 
-  // You can add more checks as needed
-
   // Sleep for a random amount of time between 1 and 5 seconds
   sleep(Math.random() * 4 + 1);
 }
