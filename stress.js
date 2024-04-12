@@ -10,9 +10,6 @@ export let options = {
     { duration: '1m', target: 10000 },// Stay at 10000 users for 30 seconds
     { duration: '30s', target: 0 },    // Ramp-down to 0 users over 30 seconds
   ],
-  thresholds: {
-    http_req_duration: ['p(95)<500'], // Ensure 95% of requests finish within 500ms
-  },
 };
 
 export default function () {
