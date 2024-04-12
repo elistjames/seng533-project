@@ -3,7 +3,8 @@ import { check, sleep } from 'k6';
 
 export let options = {
   stages: [
-    { duration: '5m', target: 20000 },  // 5-minute soak test with 20,000 users
+    { duration: '1s', target: 20000 },  // Immediate ramp-up to 20,000 users
+    { duration: '4m59s', target: 20000 },  // Stay at 20,000 users for the remainder of the test
   ],
   thresholds: {
     http_req_duration: ['p(95)<500'], // Ensure 95% of requests finish within 500ms
@@ -18,7 +19,4 @@ export default function () {
   check(response, {
     'is status 200': (r) => r.status === 200,
   });
-  
-  // Sleep for a random amount of time between 1 and 5 seconds
-  sleep(Math.random() * 4 + 1);
 }
