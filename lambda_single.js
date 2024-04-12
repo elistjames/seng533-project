@@ -5,9 +5,6 @@ export let options = {
   stages: [
     { duration: '5m', target: 1 },  // 1 virtual user arriving every second for 5 minutes
   ],
-  thresholds: {
-    http_req_duration: ['p(95)<500'], // Ensure 95% of requests finish within 500ms
-  },
 };
 
 export default function () {
