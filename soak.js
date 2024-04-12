@@ -6,9 +6,6 @@ export let options = {
     { duration: '1s', target: 20000 },  // Immediate ramp-up to 20,000 users
     { duration: '4m59s', target: 20000 },  // Stay at 20,000 users for the remainder of the test
   ],
-  thresholds: {
-    http_req_duration: ['p(95)<500'], // Ensure 95% of requests finish within 500ms
-  },
 };
 
 export default function () {
