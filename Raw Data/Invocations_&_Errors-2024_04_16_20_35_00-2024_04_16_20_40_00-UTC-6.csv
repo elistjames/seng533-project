@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,mm1m0,mm2m0
+StatusCode,Complete,Complete
+Messages,,
+Full label,us-east-2:AWS/Lambda FunctionName:test-1 Invocations Sum 60,us-east-2:AWS/Lambda FunctionName:test-1 Errors Sum 60
+Label,Invocations,Errors
+2024/04/16 20:35:00,476,0
+2024/04/16 20:36:00,5538,10
+2024/04/16 20:37:00,6032,3
+2024/04/16 20:38:00,5961,6
+2024/04/16 20:39:00,5834,4
+2024/04/16 20:40:00,3180,3

@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_w_3sqs_eFwDi1nhD52zuaFh_0
+StatusCode,Complete
+Messages,
+Full label,us-east-2:LambdaInsights function_name:test-1 cpu_total_time Maximum 60
+Label,cpu_total_time
+2024/04/16 20:35:00,60
+2024/04/16 20:36:00,60
+2024/04/16 20:37:00,60
+2024/04/16 20:38:00,120
+2024/04/16 20:39:00,50
+2024/04/16 20:40:00,130

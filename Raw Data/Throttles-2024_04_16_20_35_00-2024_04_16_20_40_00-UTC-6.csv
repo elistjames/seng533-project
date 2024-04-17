@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_w_TUV9EDkDgtI9xNBnFUWCs_0
+StatusCode,Complete
+Messages,
+Full label,us-east-2:AWS/Lambda FunctionName:test-1 Throttles Sum 60
+Label,Throttles
+2024/04/16 20:35:00,0
+2024/04/16 20:36:00,4933
+2024/04/16 20:37:00,51690
+2024/04/16 20:38:00,139082
+2024/04/16 20:39:00,189158
+2024/04/16 20:40:00,53844

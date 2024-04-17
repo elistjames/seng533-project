@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_w_dr8mYzu___veJDVL7RRa9_0
+StatusCode,Complete
+Messages,
+Full label,us-east-2:LambdaInsights function_name:test-1 total_network Maximum 60
+Label,total_network
+2024/04/16 20:35:00,78019
+2024/04/16 20:36:00,141519
+2024/04/16 20:37:00,125001
+2024/04/16 20:38:00,143660
+2024/04/16 20:39:00,150662
+2024/04/16 20:40:00,141901

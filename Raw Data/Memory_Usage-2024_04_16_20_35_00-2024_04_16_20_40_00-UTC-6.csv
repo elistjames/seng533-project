@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_w_l8DtQYnIhGI2A8JSJyA3c_0
+StatusCode,Complete
+Messages,
+Full label,us-east-2:LambdaInsights function_name:test-1 memory_utilization Maximum 60
+Label,memory_utilization
+2024/04/16 20:35:00,35
+2024/04/16 20:36:00,36
+2024/04/16 20:37:00,36
+2024/04/16 20:38:00,36
+2024/04/16 20:39:00,36
+2024/04/16 20:40:00,37
